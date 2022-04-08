@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-left">
+                <a href="index.html" style="margin-top: 18px;"><img src="img/logo.svg" alt=""></a>
+                <form action="search" class="search-icon-form">
+                    <input class="search-icon-form__input" id="search" type="search">
+                    <label for="search" class="search-icon-form__label">
+                        <svg class="search-icon-form__svg" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+                            <path
+                                d="M23.762,22.681 L17.569,16.586 C19.190,14.825 20.187,12.494 20.187,9.929 C20.186,4.443 15.668,-0.002 10.093,-0.002 C4.519,-0.002 0.001,4.443 0.001,9.929 C0.001,15.416 4.519,19.862 10.093,19.862 C12.502,19.862 14.711,19.028 16.446,17.644 L22.663,23.763 C22.966,24.062 23.458,24.062 23.761,23.763 C24.065,23.464 24.065,22.979 23.762,22.681 ZM10.093,18.334 C5.377,18.334 1.553,14.572 1.553,9.929 C1.553,5.288 5.377,1.525 10.093,1.525 C14.810,1.525 18.633,5.288 18.633,9.929 C18.633,14.572 14.810,18.334 10.093,18.334 Z" />
+                        </svg>
+                    </label>
+                </form>
+            </div>
+            <div class="nav-right">
+                <button class="menu-btn" style="margin-top: 30px;">
+                    <span class="menu-btn-item"></span>
+                </button>
+                <a href="#" style="margin-top: 26px;"><img src="img/registration.svg" alt=""></a>
+                <a href="#" style="margin-top: 26px;"><img src="img/basket.svg" alt=""><span>5</span> </a>
+            </div>
+
+        </nav>
+    </header>
+    <section class="breadcrumb">
+        <div class="breadcrumb-top container">
+            <p class="new-arrivals">SHOPPING CART</p>
+
+        </div>
+    </section>
+
+    <section class="cart container">
+        <article class="cart-cards">
+            <div class="cart-cards-item1">
+                <div class="cart-cards-item1-img"></div>
+                <div class="cart-cards-item1-text">
+                    <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                    <h2>MANGO PEOPLE <br> T-SHIRT</h2>
+                    <p>Price: <span class="cart-span-price">$300</span></p>
+                    <p>Color: <span class="cart-span">Red</span></p>
+                    <p>Size: <span class="cart-span">Xl</span></p>
+                    <p>Quantity: <span class="cart-span2">2</span></p>
+
+                </div>
+            </div>
+            <div class="cart-cards-item2">
+                <div class="cart-cards-item2-img"></div>
+                <div class="cart-cards-item1-text">
+                    <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                    <h2>MANGO PEOPLE <br> T-SHIRT</h2>
+                    <p>Price: <span class="cart-span-price">$300</span></p>
+                    <p>Color: <span class="cart-span">Red</span></p>
+                    <p>Size: <span class="cart-span">Xl</span></p>
+                    <p>Quantity: <span class="cart-span2">2</span></p>
+
+                </div>
+            </div>
+            <div class="cart-button">
+                <button class="cart-btn-clear">CLEAR SHOPPING CART</button>
+                <button class="cart-btn-continue">CONTINUE SHOPPING</button>
+            </div>
+
+
+        </article>
+        <div class="cart-shipping">
+            <div class="cart-form">
+                <p class="cart-form-txt">SHIPPING ADRESS</p>
+                <input class="cart-form-city" type="text" placeholder="Bangladesh"> <br>
+                <input class="cart-form-state" type="text" placeholder="State"><br>
+                <input class="cart-form-postcode" type="text" placeholder="Postcode / ZIP">
+                <button class="cart-form-button">GET A QUOTE</button>
+            </div>
+            <article class="cart-total">
+                <h2 class="cart-total-title">SUB TOTAL &nbsp; &nbsp; &nbsp; $900</h2>
+                <h1 class="cart-total-subtitle">GRAND TOTAL &nbsp; &nbsp; &nbsp; <span>$900</span></h1>
+                <div class="cart-total-hr"></div>
+                <button class="cart-total-button">PROCEED TO CHECKOUT</button>
+            </article>
+        </div>
+
+
+
+
+
+    </section>
+    <footer>
+        <div class="subscribe">
+            <div class="subscribe-info container">
+                <div class="subscribe-photo">
+                    <img src="img/subscribe.svg" alt="" class="subscribe-photo-img">
+                    <h3 class="subscribe-photo-txt">“Vestibulum quis porttitor dui! Quisque <br> viverra nunc mi,
+                        <span class="subscribe-text">a
+                            pulvinar purus <br> condimentum</span> “
+                    </h3>
+                </div>
+                <div class="subscribe-form-wrp">
+                    <h2 class="subscribe-form-title">SUBSCRIBE</h2>
+                    <p class="subscribe-form-subtitle">FOR OUR NEWLETTER AND PROMOTION</p>
+                    <form action="#" class="subscribe-form">
+                        <input class="subscribe-form-email" type="email" placeholder="Enter Your Email" required>
+                        <input class="subscribe-form-btn" type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="copyright-info container">
+                <p class="footer-copy-txt">© 2021 Brand All Rights Reserved.</p>
+                <ul class="footer-copy-social">
+                    <li><a href="#" class="fa-brands fa-facebook-f"></a></li>
+                    <li><a href="#" class="fa-brands fa-instagram"></a></li>
+                    <li><a href="#" class="fa-brands fa-pinterest-p"></a></li>
+                    <li><a href="#" class="fa-brands fa-twitter"></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
